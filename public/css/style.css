@@ -29,88 +29,13 @@ section
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-/* ----------------------------------*/
-/* ----------------------------------*/
-/* Section Main Search */
-.mainSeach
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-}
-.mainSeach .card
-{
-    position: relative;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 10px;
-    flex-direction: column;
 }
-.mainSeach .card .search
-{
-    position: relative;
-    width: 400px;
-    margin: 0 10px;
-}
-.mainSeach .card .search label
-{
-    position: relative;
-    width: 100%;
-}
-.mainSeach .card .search label input
-{
-    width: 100%;
-    height: 40px;
-    border-radius: 40px;
-    background: var(--bgclr);
-    color: var(--black);
-    padding: 5px 20px;
-    padding-left: 45px;
-    outline: none;
-    border: 1px solid rgba(0,0,0,0.2);
-}
-.mainSeach .card .search label svg
-{
-    position: absolute;
-    color: var(--black);
-    left: 15px;
-    top: 0px;
-}
-.mainSeach .card h1
+/* ----------------------------------*/
+h1
 {
     color: var(--black);
-    margin-bottom: 10px;
-}
-.mainSeach .card .buttons
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-.mainSeach .card .buttons .btn
-{
-    margin: 0 5px;
-    margin-top: 20px;
-    padding: 12px 20px;
-    color: var(--black);
-    font-size: 1.5em;
-    cursor: pointer;
-    border-radius: 15px;
-    text-decoration: none;
-    background: var(--bgclr);
-    box-shadow: 0 0 10px rgba(0,0,0,0.2)
-}
-.mainSeach .card .buttons .btn:hover
-{
-    background: var(--blue);
-    color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.4)
+    margin-bottom: 20px;
 }
 
 .cardBox
@@ -136,7 +61,7 @@ section
     padding: 20px;
     padding-top: 30px;
 }
-.books .card
+.card
 {
     position: relative;
     background: var(--white);
@@ -148,17 +73,17 @@ section
     border-radius: 20px;
     white-space: wrap
 }
-.books .card:hover
+.card:hover
 {
     background: var(--blue);
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
-.books .card:hover a,
-.books .card:hover span
+.card:hover a,
+.card:hover span
 {
     color: #fff;
 }
-.books .card a
+.card a
 {
     width: 100%;
     height: 100%;
@@ -167,7 +92,7 @@ section
     text-decoration: none;
     font-size: 1.5em;
 }
-.books .card span
+.card span
 {
     color: var(--blue);
     text-align: start;

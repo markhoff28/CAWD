@@ -20,16 +20,16 @@ class DashboardView
     <body>
       <section class="main">
         <h1><?php echo htmlspecialchars($title); ?></h1>
-        <ul>
+        <div class="cardBox gray" style="--i: 2;">
           <?php foreach ($widgets as $widget): ?>
-            <li>
+            <div class="card">
+              <span><?php echo $widget['icon']; ?></span>
               <a href="<?php echo htmlspecialchars($widget['url']); ?>">
-                <span><?php echo $widget['icon']; ?></span>
                 <?php echo htmlspecialchars($widget['name']); ?>
               </a>
-            </li>
+            </div>
           <?php endforeach; ?>
-        </ul>
+        </div>
       </section>
 
     </body>
