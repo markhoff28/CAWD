@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><?= $data['title'] ?></title>
+  <link rel="stylesheet" href="public/css/style.css">
+</head>
+
+<body>
+  <section class="main">
+    <h1><?= $data['title'] ?></h1>
+    <div class="cardBox gray" style="--i: 2;">
+      <?php foreach ($data['widgets'] as $widget): ?>
+        <div class="card">
+          <span><?= $widget['icon'] ?></span>
+          <a href="<?= $widget['url'] ?>">
+            <?= $widget['name'] ?>
+          </a>
+        </div>
+      <?php endforeach; ?>
+    </div>
+  </section>
+
+</body>
+
+</html>
