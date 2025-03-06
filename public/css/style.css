@@ -70,8 +70,7 @@ h1
     background: var(--blue);
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
-.card:hover a,
-.card:hover span
+.card:hover a
 {
     color: #fff;
 }
@@ -86,7 +85,7 @@ h1
 }
 .card span
 {
-    color: var(--blue);
+    filter: invert(1);
     text-align: start;
     font-size: 1.5em;
 }
