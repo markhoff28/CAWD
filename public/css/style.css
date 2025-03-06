@@ -98,3 +98,12 @@ h1
     text-align: start;
     font-size: 1.5em;
 }
+
+/* Responsive */
+@media (max-width: 932px)
+{
+    .cardBox
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
