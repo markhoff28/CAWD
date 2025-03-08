@@ -35,8 +35,9 @@ This project is a simple PHP-based MVC (Model-View-Controller) dashboard that dy
 1. Clone or download the project.
 2. Ensure you have a local PHP server (e.g., Apache Webserver, NGINX, XAMPP, WAMP, or built-in PHP server).
 3. Place the project in your server's root directory.
-4. Configure the `config.ini` file (see below for details).
-5. Start your local server and access the project through your browser.
+4. If necessary, adjust the root folder in the configuration so that the index file of the project is loaded
+5. Configure the `config.ini` file (see below for details).
+6. Start your local server and access the project through your browser.
 
 ## Configuration (config.ini)
 
